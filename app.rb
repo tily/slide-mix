@@ -59,7 +59,6 @@ helpers do
 
 	def random_image
 		%w(
-			https://farm7.staticflickr.com/6138/6038284708_cd59cae111.jpg
 			https://farm7.staticflickr.com/6085/6037735595_993ee88d33.jpg
 			https://farm7.staticflickr.com/6074/6038283286_50493e35eb.jpg
 			https://farm7.staticflickr.com/6135/6037734315_df5e749df8.jpg
