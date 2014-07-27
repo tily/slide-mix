@@ -158,7 +158,7 @@ __END__
 		%link{rel:'stylesheet',href:'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'}
 		:css
 			a,a:hover { color: #13daec; }
-			section.top { color: white }
+			section.top { color: white; -webkit-text-stroke: 2px black }
 			p.caption { font-size: small }
 	%body
 		%div.reveal
@@ -170,6 +170,7 @@ __END__
 				progress: true
 				slideNumber: true
 				history: true
+				hideAddressBar: true
 @@ /:id/e
 %section.top{'data-background'=>random_image}
 	- if @slide && !@slide.errors.empty?
